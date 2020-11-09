@@ -19,40 +19,40 @@ class MenuItem {
         this.quantity = quantity;
     }
    
-    public Integer getmid() {
-        return mid;
+    public Integer getmid() {                       //created getter method for mid function
+        return mid;     
     }
     
-    public void setmid(Integer mid) {
+    public void setmid(Integer mid) {               //created setter method for mid function
         this.mid = mid;
     }  
 
-    public String getName() {
+    public String getName() {                       //created getter method for name function
         return name;
     }
 
     
-    public void setName(String name) {
+    public void setName(String name) {              //created setter method for name function
         this.name = name;
     }
 
     
-    public Double getPrice() {
+    public Double getPrice() {                      //created getter method for price function
         return price;
     }
 
     
-    public void setPrice(Double price) {
+    public void setPrice(Double price) {            //craeted setter method for price function
         this.price = price;
     }
 
     
-    public Integer getQuantity() {
+    public Integer getQuantity() {                  //created getter method for quantity function
         return quantity;
     }
 
     
-    public void setQuantity(Integer quantity) {
+    public void setQuantity(Integer quantity) {     //created setter method for quantity function
         this.quantity = quantity;
     }
 
@@ -61,15 +61,15 @@ class MenuItem {
     @Override
     public int hashCode() {
         int hash = 7;
-        hash = 29 * hash + Objects.hashCode(this.mid);
-        hash = 29 * hash + Objects.hashCode(this.name);
-        hash = 29 * hash + Objects.hashCode(this.price);
-        hash = 29 * hash + Objects.hashCode(this.quantity);
+        hash = 29 * hash + Objects.hashCode(this.mid);          //created unique hash code for pid
+        hash = 29 * hash + Objects.hashCode(this.name);         //created unique hash code for name
+        hash = 29 * hash + Objects.hashCode(this.price);        //created unique hash code for price
+        hash = 29 * hash + Objects.hashCode(this.quantity);     //created unique hash code for quantity
         return hash;
     }
 
     @Override
-    public boolean equals(Object obj) {
+    public boolean equals(Object obj) {                         //created equals function to compare two objects based on their properties
         if (this == obj) {
             return true;
         }
