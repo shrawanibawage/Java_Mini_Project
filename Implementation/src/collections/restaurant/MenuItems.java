@@ -5,17 +5,17 @@ import java.util.List;
 
 
 public class MenuItems {
-    private final List<MenuItem> MenuItems = new ArrayList<MenuItem>();
+    private final List<MenuItem> MenuItems = new ArrayList<MenuItem>();     //object created
 
-    public MenuItems () {
+    public MenuItems () {                                                   //created MenuItems function which calls dataBase function to add menu items
         this.dataBase();
     }
     
-    public List<MenuItem> getMenuItems() {
+    public List<MenuItem> getMenuItems() {                                  //return list of menu items
         return MenuItems;
     }
-    
-    public void dataBase() {
+                                                                
+    public void dataBase() {                                                //created database function to add item name, item price and item quantity into a new ArrayList of type MenuItem
         String [] MenuItemName = {"Fries", "Salad", "Papad Dry", "Papad Fry", "Masala Papad Fry", "Dry Papad Fry", "Veg Fried Rice", "Jeera Rice", "Ghee Rice", "Biryani Rice", 
                                  "Chicken Fried Rice", "Chicken Biryani", "Egg Fried Rice"};
         Double [] MenuItemPrice = {40.00d, 65.00d, 10.00d, 10.00d, 20.00d, 20.00d, 60.00d, 60.00d, 70.00d, 50.00d, 110.00d, 100.00d, 70.00d};
