@@ -42,7 +42,7 @@ class MenuItem {
     }
 
     
-    public void setPrice(Double price) {            //craeted setter method for price function
+    public void setPrice(Double price) {            //created setter method for price function
         this.price = price;
     }
 
