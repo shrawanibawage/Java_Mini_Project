@@ -13,7 +13,7 @@ public class RestaurantScreen {
         menu();
     }
     
-    public void mainScreen () {
+    public void mainScreen () {                                     //printing options for user input
     	System.out.println("***********************");
         System.out.println("1. Show Menu");
         System.out.println("***********************");
@@ -23,7 +23,7 @@ public class RestaurantScreen {
         System.out.println("***********************");
     }
     
-    public void operationsMenu() {
+    public void operationsMenu() {                                  //printing options for user input
     	System.out.println("***********************");
         System.out.println("1. Add to Order");
         System.out.println("***********************");
@@ -33,7 +33,7 @@ public class RestaurantScreen {
         System.out.println("***********************");
     }
     
-    public void menu () {
+    public void menu () {                                           //takes user input to call respective function
         do {
             mainScreen();
             takeInput();
@@ -59,12 +59,12 @@ public class RestaurantScreen {
         } while (ch != 0);
     }
     
-    private void wrongChoice() {
+    private void wrongChoice() {                                    //checking user input with database
     	System.out.println("Incorrect Choice, Select Again");
     	
     }
 
-    private void innerInput() {
+    private void innerInput() {                                     //takes user input to call respective function
         switch (ch) {
             case 1:
                 addItem();
@@ -79,7 +79,7 @@ public class RestaurantScreen {
         }
     }
 
-    private int takeInput() throws NumberFormatException {
+    private int takeInput() throws NumberFormatException {                  //exception handling
         Scanner in = new Scanner (System.in);
         ch = Integer.parseInt(in.nextLine());
         //in.close();
@@ -87,7 +87,7 @@ public class RestaurantScreen {
        
     }
 
-    private void displayMenu() {
+    private void displayMenu() {                                            //displays the menu list
         List<MenuItem> menuitems = new MenuItems().getMenuItems();
         System.out.println("M_ID----Item---------Price----Quantity");
         for (MenuItem ite: menuitems) {
@@ -100,16 +100,16 @@ public class RestaurantScreen {
         }
     }
 
-    private void addItem() {
+    private void addItem() {                //adding items using mid
         int mid = takeInput();
         order.addItembymid(mid);      
     }
 
-    private void showOrder() {
+    private void showOrder() {              //shows a list of order
         order.printOrderItems();
     }
 
-    private void removeItem() {
+    private void removeItem() {             //removes item from menu list
         int mid = takeInput();
         order.removeItemBymid(mid);
     }
