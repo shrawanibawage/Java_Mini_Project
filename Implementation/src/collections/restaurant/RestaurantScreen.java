@@ -14,13 +14,14 @@ public class RestaurantScreen {
     }
     
     public void mainScreen () {                                     //printing options for user input
-    	System.out.println("***********************");
+        System.out.println("****Welcome to SPNH Restaurant****");                          
+    	System.out.println("**********************************");
         System.out.println("1. Show Menu");
-        System.out.println("***********************");
+        System.out.println("**********************************");
         System.out.println("2. Show My Order");
-        System.out.println("***********************");
+        System.out.println("**********************************");
         System.out.println("3. Exit");
-        System.out.println("***********************");
+        System.out.println("**********************************");
     }
     
     public void operationsMenu() {                                  //printing options for user input
