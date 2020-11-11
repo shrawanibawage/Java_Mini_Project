@@ -7,3 +7,9 @@ Features of Console based Restuarant Management System
 * _Admin can add/ remove the Menu Items._
 * _User can see the list of all items._
 * _User can place the order based on provided Menu items._
+
+Collaborators:
+* 99002683
+* 99002688
+* 99002684
+* 99002681
