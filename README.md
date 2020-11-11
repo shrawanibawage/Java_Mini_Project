@@ -16,4 +16,5 @@ Collaborators:
 
 
 |Codacy|
+|------|
 |[![Codacy Badge](https://app.codacy.com/project/badge/Grade/aadea4086ab04c25b79b074939bbbed2)](https://www.codacy.com/gh/99002688/Java_Mini_Project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=99002688/Java_Mini_Project&amp;utm_campaign=Badge_Grade)|
