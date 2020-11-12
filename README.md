@@ -15,6 +15,6 @@ Collaborators:
 * 99002681
 
 
-|Codacy|CI/CD|
-|------|-----|
-|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/aadea4086ab04c25b79b074939bbbed2)](https://www.codacy.com/gh/99002688/Java_Mini_Project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=99002688/Java_Mini_Project&amp;utm_campaign=Badge_Grade)|![Maven CI/CD](https://github.com/99002688/Java_Mini_Project/workflows/Maven%20CI/CD/badge.svg?branch=main)|
+|Codacy|CI/CD|Pull Requests|Last Edit|
+|------|-----|-------------|---------|
+|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/aadea4086ab04c25b79b074939bbbed2)](https://www.codacy.com/gh/99002688/Java_Mini_Project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=99002688/Java_Mini_Project&amp;utm_campaign=Badge_Grade)|![Maven CI/CD](https://github.com/99002688/Java_Mini_Project/workflows/Maven%20CI/CD/badge.svg?branch=main)|![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/99002688/Java_Mini-Project)|![GitHub last commit](https://img.shields.io/github/last-commit/99002688/Java_Mini-Project)|
