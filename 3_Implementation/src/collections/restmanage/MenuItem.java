@@ -19,9 +19,7 @@ class MenuItem {
         this.quantity = quantity;
     }
    
-    public Integer getmid() {                       //created getter method for mid function
-        return mid;     
-    }
+    
     
     public void setmid(Integer mid) {               //created setter method for mid function
         this.mid = mid;
