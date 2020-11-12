@@ -3,16 +3,19 @@ package collections.restmanage;
 import java.util.List;
 import java.util.Scanner;
 
-public class RestaurantScreen {
+public class RestaurantScreen 
+{
 
     Order order = new Order();
     private int ch = 0;
     
-    public RestaurantScreen () {
+    public RestaurantScreen () 
+    {
         menu();
     }
     
-    public void mainScreen () {                                     //printing options for user input
+    public void mainScreen () 
+    {                                                               //printing options for user input
         System.out.println("****Welcome to SPNH Restaurant****");                          
     	System.out.println("**********************************");
         System.out.println("1. Show Menu");
@@ -23,7 +26,8 @@ public class RestaurantScreen {
         System.out.println("**********************************");
     }
     
-    public void operationsMenu() {                                  //printing options for user input
+    public void operationsMenu() 
+    {                                                               //printing options for user input
     	System.out.println("***********************");
         System.out.println("1. Add to Order");
         System.out.println("***********************");
@@ -59,12 +63,14 @@ public class RestaurantScreen {
         } while (ch != 0);
     }
     
-    private void wrongChoice() {                                    //checking user input with database
+    private void wrongChoice() 
+    {                                                               //checking user input with database
     	System.out.println("Incorrect Choice, Select Again");
     	
     }
 
-    private void innerInput() {                                     //takes user input to call respective function
+    private void innerInput() 
+    {                                                               //takes user input to call respective function
         switch (ch) {
             case 1:
                 addItem();
@@ -79,7 +85,8 @@ public class RestaurantScreen {
         }
     }
 
-    private int takeInput() throws NumberFormatException {                  //exception handling
+    private int takeInput() throws NumberFormatException 
+    {                                                                       //exception handling
         Scanner in = new Scanner (System.in);
         ch = Integer.parseInt(in.nextLine());
         //in.close();
@@ -87,7 +94,8 @@ public class RestaurantScreen {
        
     }
 
-    private void displayMenu() {                                            //displays the menu list
+    private void displayMenu() 
+    {                                                                       //displays the menu list
         List<MenuItem> menuitems = new MenuItems().getMenuItems();
         System.out.println("M_ID----Item---------Price----Quantity");
         for (MenuItem ite: menuitems) {
