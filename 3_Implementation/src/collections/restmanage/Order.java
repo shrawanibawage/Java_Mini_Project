@@ -22,7 +22,7 @@ class Order {
                 break;
             }
         }
-        return menItem;
+        return menuItem;
     }
 
     private void addToOrder(MenuItem menuItem) {                            //adding a new item into menuItem
