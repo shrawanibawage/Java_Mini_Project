@@ -4,14 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class MenuItems {
+public class MenuItems 
+{
     private final List<MenuItem> MenuItems = new ArrayList<MenuItem>();     //object created
 
-    public MenuItems () {                                                   //created MenuItems function which calls dataBase function to add menu items
+    public MenuItems () 
+    {                                                                       //created MenuItems function which calls dataBase function to add menu items
         this.dataBase();
     }
     
-    public List<MenuItem> getMenuItems() {                                  //return list of menu items
+    public List<MenuItem> getMenuItems() 
+    {                                                                       //return list of menu items
         return MenuItems;
     }
                                                                 
