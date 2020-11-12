@@ -9,10 +9,12 @@ class MenuItem {
     private Double price;
     private Integer quantity;
     
-    public MenuItem () {       
+    public MenuItem () 
+    {       
     }
     
-    public MenuItem (Integer mid, String name, Double price, Integer quantity) {
+    public MenuItem (Integer mid, String name, Double price, Integer quantity) 
+    {
         this.mid = mid;
         this.name = name;
         this.price = price;
@@ -59,7 +61,8 @@ class MenuItem {
     
     
     @Override
-    public int hashCode() {
+    public int hashCode() 
+    {
         int hash = 7;
         hash = 29 * hash + Objects.hashCode(this.mid);          //created unique hash code for pid
         hash = 29 * hash + Objects.hashCode(this.name);         //created unique hash code for name
