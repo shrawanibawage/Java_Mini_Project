@@ -94,7 +94,5 @@ class MenuItem {
         }
         return true;
     }
-
-    
      
 }
